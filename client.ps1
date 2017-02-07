@@ -1,5 +1,13 @@
-﻿cls
-Remove-Variable * -ErrorAction SilentlyContinue
+# =======================================================
+# NAME: client.ps1
+# AUTHOR: FabiOus37
+# DATE: 02/07/2017
+#
+# VERSION 1.0
+# COMMENTS: Change variable $adresseBaseRedis with your own IP address or hostname of your redis server 
+#
+#Requires -Version 2.0
+# =======================================================
 
 #region Supression de la console powershell, A COMMENTER (DESACTIVER) SI ON VEUT LA CONSOLE POWERSHELL EN ARRIERE PLAN
 
@@ -18,7 +26,7 @@ Import-Module .\PowerRedis\PowerRedis.psd1
 
 #region Définition des variables
 
-$adresseBaseRedis = "ptitsyno37.fr"
+$adresseBaseRedis = "XXXX"
 $global:idValid = $false
 $global:positionMessage = 0
 $global:dateMessage = Get-Date -Format yyyyMMdd
