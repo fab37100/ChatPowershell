@@ -6,7 +6,7 @@
 # VERSION 1.0
 # COMMENTS: Change variable $adresseBaseRedis with your own IP address or hostname of your redis server 
 #
-#Requires -Version 2.0
+#Requires -Version 4.0
 # =======================================================
 
 #region Supression de la console powershell, A COMMENTER (DESACTIVER) SI ON VEUT LA CONSOLE POWERSHELL EN ARRIERE PLAN
